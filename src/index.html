@@ -2,36 +2,238 @@
 <html lang="ko">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vite를 이용한 사이트 만들기</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vite를 이용한 사이트 만들기</title>
 
-    <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
 
 <body>
-    <div id="skip">
-        skip
+  <div id="skip">
+    <a href="#header">헤더 영역 바로가기</a>
+    <a href="#intro">소개 영역 바로가기</a>
+    <a href="#skill">스킬 영역 바로가기</a>
+    <a href="#site">사이트 영역 바로가기</a>
+    <a href="#port">포트폴리오 영역 바로가기</a>
+    <a href="#contact">연락처 영역 바로가기</a>
+    <a href="#footer">푸터 영역 바로가기</a>
+  </div>
+  <!-- //skip -->
+
+  <header id="header" role="banner">
+    <div class="header__inner">
+      <div class="header__logo">
+        <a href="#">PORTFOLIO <em>by UZIN</em></a>
+      </div>
+      <nav class="header__nav" role="navigation" aria-label="메인 메뉴">
+        <ul>
+          <li>
+            <a href="#intro">intro</a>
+          </li>
+          <li>
+            <a href="#skill">skill</a>
+          </li>
+          <li>
+            <a href="#site">site</a>
+          </li>
+          <li>
+            <a href="#port">port</a>
+          </li>
+          <li>
+            <a href="#contact">contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header_nav__mobile" id="headerToggle" aria-controls="primary-menu" aria-expanded="false"
+        role="button">
+
+        <span></span>
+      </div>
     </div>
-    <!-- //skip -->
+  </header>
+  <!-- //header -->
 
-    <header id="header">
-        header
-    </header>
-    <!-- //header -->
+  <main id="main" role="main">
+    <section id="intro">
+      <div class="intro__inner">
+        <h1 class="intro__title">
+          UZIN Developer
+        </h1>
+        <div class="intro__lines" aria-hidden="true">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+        <div class="intro__text">
+          <div class="text">
+            <div>where there</div>
+            <div>is a will there is</div>
+            <div>a way</div>
+          </div>
+          <div class="img">
 
-    <main id="main">
-        main
-    </main>
-    <!-- //main -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- //intro -->
 
-    <footer id="footer">
-        footer
-    </footer>
-    <!-- //footer -->
+    <section id="skill">
+      <div class="skill__inner">
+        <h2 class="skill__title">
+          challenge <em>나의 도전</em>
+        </h2>
+        <div class="skill__desc">
+          <div>
+            <span>1. </span>
+            <h3>직업의 변화, 새로운 시작.</h3>
+            <p>
+              저의 가장 큰 도전은 직업 전환 이었습니다.
+              이전의 경험을 새로운 분야로 적용하고 학습 곡선을 극복하며,
+              제 창의력과 역량을 증명하는 과정이었습니다.
+            </p>
+          </div>
+          <div>
+            <span>2. </span>
+            <h3>프로젝트 리더십 도전</h3>
+            <p>
+              프로젝트 리더로서 일한 경험에서 가장 큰 도전은 팀을 효과적으로 조직하고 목표를 달성하는 것이었습니다.
+              다양한 관심사와 역량을 가진 팀원들을 통합하고 프로젝트를 성공적으로 완료하는 데
+              중요한 역할을 했습니다.
+            </p>
+          </div>
+          <div>
+            <span>3. </span>
+            <h3>시간 관리와 스트레스 관리 도전</h3>
+            <p>
+              일과 학업을 병행하면서 시간 관리와 스트레스 관리의 도전을 경험했습니다.
+              이러한 상황에서 효과적으로 일정을 조절하고 스트레스를 관리하며,
+              업무와 학업 양립을 성취한 경험을 통해 도전을
+              극복했습니다.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- //skill -->
 
-    <script type="module" src="assets/js/main.js"></script>
+    <section id="site">
+      <div class="site__inner">
+        <div class="site__title">
+          Site Coding <em>나의 작업물</em>
+        </div>
+        <div class="site__wrap">
+          <div class="site__item s1">
+            <span class="num">1. </span>
+            <div class="text">
+              <div>make</div>
+              <div>site compliant width</div>
+              <div>webstandard</div>
+            </div>
+            <h3 class="title">
+              VITE를 이용한 사이트 제작
+            </h3>
+            <div class="btn">
+              <a href="#">code</a>
+              <a href="#">view</a>
+            </div>
+            <div class="info">
+              <span>site coding</span>
+              <span>production period : two days</span>
+              <span>site coding : html5/css, css variable, vite</span>
+            </div>
+          </div>
+          <div class="site__item s2">
+            <span class="num">2. </span>
+            <div class="text">
+              <div>make</div>
+              <div>site compliant width</div>
+              <div>webstandard</div>
+            </div>
+            <h3 class="title">
+              VITE를 이용한 사이트 제작
+            </h3>
+            <div class="btn">
+              <a href="#">code</a>
+              <a href="#">view</a>
+            </div>
+            <div class="info">
+              <span>site coding</span>
+              <span>production period : two days</span>
+              <span>site coding : html5/css, css variable, vite</span>
+            </div>
+          </div>
+          <div class="site__item s3">
+            <span class="num">3. </span>
+            <div class="text">
+              <div>make</div>
+              <div>site compliant width</div>
+              <div>webstandard</div>
+            </div>
+            <h3 class="title">
+              VITE를 이용한 사이트 제작
+            </h3>
+            <div class="btn">
+              <a href="#">code</a>
+              <a href="#">view</a>
+            </div>
+            <div class="info">
+              <span>site coding</span>
+              <span>production period : two days</span>
+              <span>site coding : html5/css, css variable, vite</span>
+            </div>
+          </div>
+          <div class="site__item s4">
+            <span class="num">4. </span>
+            <div class="text">
+              <div>make</div>
+              <div>site compliant width</div>
+              <div>webstandard</div>
+            </div>
+            <h3 class="title">
+              VITE를 이용한 사이트 제작
+            </h3>
+            <div class="btn">
+              <a href="#">code</a>
+              <a href="#">view</a>
+            </div>
+            <div class="info">
+              <span>site coding</span>
+              <span>production period : two days</span>
+              <span>site coding : html5/css, css variable, vite</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- //site -->
+
+    <section id="port">
+      port
+    </section>
+    <!-- //port -->
+
+    <section id="contact">
+      contact
+    </section>
+    <!-- //contact -->
+  </main>
+  <!-- //main -->
+
+  <footer id="footer" role="contentinfo">
+    footer
+  </footer>
+  <!-- //footer -->
+
+  <script type="module" src="assets/js/main.js"></script>
 </body>
 
 </html>
