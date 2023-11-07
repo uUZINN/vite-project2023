@@ -89,3 +89,15 @@
     font-size: 1.5rem;
     font-weight: 700;
 }
+
+@media (max-width:800px) {
+
+    .port__title {
+        width: 100%;
+        margin-bottom: 10vw;
+        background-color: var(--mainBg-color);
+        font-size: 9vw;
+        top: 70px;
+        padding: 0.5rem 0;
+    }
+}

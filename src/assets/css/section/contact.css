@@ -96,12 +96,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10rem;
+    padding: 10vw 0;
     margin-top: 1rem;
 }
 
 .text div a {
-    font-size: 5rem;
+    font-size: 4vw;
     font-weight: 500;
     font-family: 'Russo One';
     text-decoration: underline;
@@ -109,4 +109,16 @@
 
 .text div {
     text-align: center;
+}
+
+@media (max-width:800px) {
+
+    .contact__title {
+        width: 100%;
+        margin-bottom: 10vw;
+        background-color: var(--mainBg-color);
+        font-size: 9vw;
+        top: 70px;
+        padding: 0.5rem 0;
+    }
 }
