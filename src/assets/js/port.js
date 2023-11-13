@@ -10,7 +10,7 @@ export function port() {
         ease: "none",
         scrollTrigger: {
             trigger: "#port",
-            start: "top top",
+            start: "top 56px",
             end: "+=3000",
             pin: true,
             scrub: 1,
