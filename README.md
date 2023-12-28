@@ -1,4 +1,6 @@
 # vite를 이용한 포트폴리오 사이트 만들기
+![image](https://github.com/uUZINN/vite-project2023/assets/89904583/6afa7471-d8b0-4122-8533-dc4a7a433bde)
+
 
 ## vite를 사용하는 이유
 Vite는 JavaScript 애플리케이션을 개발하고 위한 빠르고 경량화된 도구입니다.
